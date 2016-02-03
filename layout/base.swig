@@ -22,6 +22,7 @@
   <header id="header">
     <div class="container yue">
       <a id="brand" href="/">
+          {% include "_includes/logo.svg" %}
         <strong>{{ config.title }}</strong>
       </a>
       <nav id="nav">
