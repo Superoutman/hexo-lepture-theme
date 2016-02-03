@@ -1,0 +1,9 @@
+menu:
+- name: Twitter
+  url: https://twitter.com/Superoutman
+- name: Dribbble
+  url: https://dribbble.com/Superoutman
+rss: /atom.xml
+
+# comment
+disqus: my-hexo
