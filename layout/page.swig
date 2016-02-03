@@ -34,5 +34,4 @@
     <span class="fn" itemprop="author">{{ config.author }}</span>
   </span>
 </article>
-{% include "_includes/disqus.swig" %}
 {% endblock %}

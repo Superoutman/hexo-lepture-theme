@@ -1,11 +1,11 @@
-{% if site.disqus and page.disqus != False %}
+{% if theme.disqus %}
 <div class="entry-comments yue">
   <div id="disqus_thread" class="container"></div>
 </div>
 <script>
-    var disqus_shortname='{{ site.disqus }}';
+    var disqus_shortname='{{ theme.disqus }}';
     var disqus_title='{{ page.title }}';
-    var disqus_url='{{ site.baseurl }}{{ page.url }}';
+    var disqus_url='{{ config.url }}{{ url_for(page.path) }}';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
